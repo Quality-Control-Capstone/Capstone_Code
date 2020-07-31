@@ -1,6 +1,10 @@
 import cv2
+
 connected_USBcameras = 4
 builtinCam = 1
+
+# Using a for loop the software opens each camera one at a time and writes what
+# is displayed to the a image file stoted in the desired/specified path
 
 for i in range(0,(connected_USBcameras+builtinCam)):
 
